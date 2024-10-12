@@ -23,5 +23,5 @@ This is a simple, dummy E-commerce Product Page built with HTML, CSS, and JavaSc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/E-Commerce-Product-Page.git
+   git clone https://github.com/Pradyut-Guchhait/E-Commerce-Product-Page.git
 
