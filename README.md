@@ -19,6 +19,9 @@ This is a simple, dummy E-commerce Product Page built with HTML, CSS, and JavaSc
 - **Google Fonts**: For the 'Poppins' font.
 - **Font Awesome**: For the cart icon.
 
+## Demo
+![Demo Image](assets/Demo.png)
+
 ## Installation
 
 1. Clone the repository:
