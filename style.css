@@ -1,4 +1,4 @@
-
+/* General styling for the body */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-
+/* Container to center content and apply background gradient */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -17,7 +17,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Product container with shadow and border-radius */
 .product {
     display: flex;
     flex-wrap: wrap;
@@ -29,11 +29,12 @@ body {
     margin-bottom: 20px;
 }
 
+/* Product shadow effect on hover */
 .product:hover {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
-
+/* Product image styling and hover effects */
 .product-image {
     flex: 1;
     min-width: 300px;
@@ -52,13 +53,14 @@ body {
     filter: brightness(0.9);
 }
 
-
+/* Product details section */
 .product-details {
     flex: 1;
     min-width: 300px;
     padding: 100px;
 }
 
+/* Header styling */
 header {
     background-color: #4CAF50;
     padding: 20px 0;
@@ -67,6 +69,7 @@ header {
     position: relative;
 }
 
+/* Container for header content */
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -76,15 +79,18 @@ header {
     padding: 0 20px;
 }
 
+/* Logo styling */
 .logo {
     font-size: 36px;
     font-weight: bold;
 }
 
+/* Navigation styling */
 nav {
     display: flex;
 }
 
+/* List styling for navigation links */
 .nav-links {
     list-style-type: none;
     display: flex;
@@ -96,6 +102,7 @@ nav {
     margin-left: 20px;
 }
 
+/* Link styling for navigation */
 .nav-links a {
     color: white;
     text-decoration: none;
@@ -107,19 +114,20 @@ nav {
     color: #f0f0f0; 
 }
 
-
+/* Header text styling */
 h1 {
     margin-top: 0;
     font-weight: 600;
 }
 
+/* Price styling */
 .price {
     font-size: 24px;
     font-weight: bold;
     color: #4CAF50;
 }
 
-
+/* Styling for Buy Now button */
 .buy-now {
     background: linear-gradient(45deg, #4CAF50, #67d967);
     color: white;
@@ -136,12 +144,12 @@ h1 {
     transform: scale(1.05);
 }
 
-
-
+/* Pop animation for cart count */
 #cart-count.pop {
     animation: pop 0.3s ease;
 }
 
+/* Cart icon styling */
 .cart {
     position: fixed;
     top: 20px;
@@ -167,14 +175,14 @@ h1 {
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
-
+/* Animation for cart pop effect */
 @keyframes pop {
     0% { transform: scale(1); }
     50% { transform: scale(1.3); }
     100% { transform: scale(1); }
 }
 
-/* Media Queries */
+/* Responsive styling for mobile devices */
 @media (max-width: 768px) {
     .product-image, .product-details {
         flex: 100%;

@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for character set and responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the page displayed in the browser tab -->
     <title>Product Page - Super Cool Gadget</title>
+    
+    <!-- Link to external CSS for page styling -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Link to Google Fonts for 'Poppins' font style -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    
+    <!-- Link to Font Awesome for icon usage (like shopping cart icon) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
 </head>
 <body>
+    <!-- Header section -->
     <header>
         <div class="header-container">
+            <!-- Logo for the store -->
             <h1 class="logo">The Gadget Store</h1>
+            
+            <!-- Navigation menu -->
             <nav>
                 <ul class="nav-links">
                     <li><a href="#">Home</a></li>
@@ -24,80 +35,99 @@
         </div>
     </header>
 
+    <!-- Spacing between header and content -->
     <br>
     <br>
     
+    <!-- Main container for product listings -->
     <div class="container">
+        
+        <!-- First product: Samsung Galaxy S24 -->
         <div class="product">
             <div class="product-image">
                 <img src="assets/Smartphone.webp" alt="Super Cool Gadget">
             </div>
             <div class="product-details">
                 <h1>Samsung Galaxy S24</h1>
-                <p>The Samsung Galaxy S24 offers a stunning 6.2-inch Dynamic AMOLED display, a powerful Snapdragon 8 Gen 3 processor, and a versatile triple-camera setup. Built with durability in mind, it features a sleek design, IP68 water resistance, and long-lasting battery life, making it the perfect everyday companion.</p>
+                <p>The Samsung Galaxy S24 offers a stunning 6.2-inch Dynamic AMOLED display, a powerful Snapdragon 8 Gen 3 processor, and a versatile triple-camera setup...</p>
                 <p class="price">₹56,440</p>
+                <!-- Buy Now button calls addToCart() on click -->
                 <button class="buy-now" onclick="addToCart()">Buy Now</button>
             </div>
         </div>
+
+        <!-- Second product: Samsung Galaxy Tab S9 FE+ -->
         <div class="product">
             <div class="product-image">
                 <img src="assets/tablet.avif" alt="Super Cool Gadget">
             </div>
             <div class="product-details">
                 <h1>Samsung Galaxy Tab S9 FE+ </h1>
-                <p>Discover vibrant visuals and seamless performance with the Galaxy Tab S9 FE+. Equipped with a 12.4-inch display, adaptive refresh rate, and an S Pen, it's perfect for productivity and creativity on the go. Enjoy a long-lasting battery, water resistance, and enhanced outdoor viewing capabilities for work and play, wherever you are.</p>
+                <p>Discover vibrant visuals and seamless performance with the Galaxy Tab S9 FE+...</p>
                 <p class="price">₹39,990</p>
                 <button class="buy-now" onclick="addToCart()">Buy Now</button>
             </div>
         </div>
+
+        <!-- Third product: Samsung Galaxy Watch 7 -->
         <div class="product">
             <div class="product-image">
                 <img src="assets/smartwatch.jpeg" alt="Super Cool Gadget">
             </div>
             <div class="product-details">
                 <h1>Samsung Galaxy Watch 7</h1>
-                <p>The Samsung Galaxy Watch 7 combines a powerful 3nm processor with advanced health tracking, including heart rate and sleep monitoring. With a sleek, customizable design and dual-band GPS, it’s perfect for fitness and style on the go.</p>
+                <p>The Samsung Galaxy Watch 7 combines a powerful 3nm processor with advanced health tracking...</p>
                 <p class="price">₹36,999</p>
                 <button class="buy-now" onclick="addToCart()">Buy Now</button>
             </div>
         </div>
+
+        <!-- Fourth product: HP OMEN 16 Laptop -->
         <div class="product">
             <div class="product-image">
                 <img src="assets/laptop.png" alt="Super Cool Gadget">
             </div>
             <div class="product-details">
                 <h1>HP OMEN 16</h1>
-                <p>The HP OMEN 16 is a powerful gaming laptop designed for immersive gameplay and multitasking. With a 16.1-inch QHD display, a 240Hz refresh rate, and advanced graphics options, it offers vibrant visuals and smooth performance. It's equipped with an Intel Core i7-13700HX processor, up to an RTX 4080 GPU, 32GB RAM, and a 2TB SSD, ensuring both high-speed gaming and productivity tasks.</p>
+                <p>The HP OMEN 16 is a powerful gaming laptop designed for immersive gameplay and multitasking...</p>
                 <p class="price">₹1,19,999</p>
                 <button class="buy-now" onclick="addToCart()">Buy Now</button>
             </div>
         </div>
+
+        <!-- Fifth product: Logitech G502 Gaming Mouse -->
         <div class="product">
             <div class="product-image">
                 <img src="assets/mouse.webp" alt="Super Cool Gadget">
             </div>
             <div class="product-details">
                 <h1>Logitech G502</h1>
-                <p>The Logitech G502 is a high-performance gaming mouse designed for serious gamers. It features the HERO 25K sensor with a DPI range of 100 – 25,600, adjustable weights for customizable balance, and 11 programmable buttons for complex commands. With LIGHTSPEED wireless technology, the G502 offers a 1ms response rate, delivering a wired-like experience wirelessly.</p>
+                <p>The Logitech G502 is a high-performance gaming mouse designed for serious gamers...</p>
                 <p class="price">₹3,695</p>
                 <button class="buy-now" onclick="addToCart()">Buy Now</button>
             </div>
         </div>
+
+        <!-- Sixth product: Alienware Tri-Mode Gaming Keyboard -->
         <div class="product">
             <div class="product-image">
                 <img src="assets/keyboard.avif" alt="Super Cool Gadget">
             </div>
             <div class="product-details">
                 <h1>Alienware Tri-Mode Gaming Keyboard</h1>
-                <p>Alienware's Tri-Mode Wireless Gaming Keyboard (AW920K) offers ultimate versatility with three connection options: USB-C, 2.4GHz wireless, and Bluetooth 5.1. Featuring CHERRY MX Red switches for smooth, linear actuation and 100 million keystroke durability. this keyboard is designed for serious gaming. It also includes AlienFX per-key RGB lighting with 16.8 million colors, customizable through the Alienware Command Center. With a magnetic snap-on charging, and durable, fade-resistant PBT keycaps.</p>
+                <p>Alienware's Tri-Mode Wireless Gaming Keyboard (AW920K) offers ultimate versatility...</p>
                 <p class="price">₹21,999</p>
                 <button class="buy-now" onclick="addToCart()">Buy Now</button>
             </div>
         </div>
     </div>
+
+    <!-- Fixed cart icon with item count -->
     <div class="cart">
         <i class="fas fa-shopping-cart"></i> Cart:<span id="cart-count">0 </span> items
     </div>    
-<script src="script.js"></script>
+
+    <!-- Link to external JavaScript for adding items to cart -->
+    <script src="script.js"></script>
 </body>
 </html>
